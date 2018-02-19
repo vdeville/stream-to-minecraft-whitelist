@@ -5,7 +5,7 @@ import json
 import requests
 
 PROFILES_URL = "https://api.mojang.com/profiles/minecraft"
-STREAM_WHITELIST_URL = "https://whitelist.twitchapps.com/list.php?id=warths5657829972d9b&format=json"
+STREAM_WHITELIST_URL = "https://whitelist.twitchapps.com/list.php?id={{id}}&format=json"
 WHITELIST_FILE = "whitelist.json"
 
 
